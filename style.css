@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainContainer{
+    background-color: #3b3b98;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.mainContainer .child{
+    height: 400px;
+    width: 370px;
+    background-color: #23235b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0em 0em white, -0em 0 .5em white;
+}
+.mainContainer .child .conditional{
+    height: 45%;
+    width: 90%;
+}
+#Output{
+    height: 14%;
+    width: 90%;
+    border: none;
+    background-color: black;
+    display: grid;
+    place-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+.mainContainer .child h1{
+    font-family:  "Protest Guerrilla";
+    letter-spacing: 2px;
+    color:  white;
+}
+
+.mainContainer .child .conditional .setting{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: Playpen Sans;
+    font-weight: 600;
+    color: white;
+}
+
+#btn{
+    width: 70%;
+    height: 10%;
+    background-color: #3b3b98;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-family:  "Protest Guerrilla";
+    letter-spacing: 1px;
+}
